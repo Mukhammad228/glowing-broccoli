@@ -1757,7 +1757,8 @@ color: #000000;
 }
 @media (max-width: 320px){
     body{
-        padding: 2rem;
+        padding: 0 0 0 2rem;
+        overflow-x: hidden;
     }
     .nav .container{
         overflow-y: hidden;
