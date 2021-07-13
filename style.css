@@ -1756,6 +1756,15 @@ color: #000000;
     }
 }
 @media (max-width: 320px){
+    body{
+        padding: 2rem;
+    }
+    .nav .container{
+        overflow-y: hidden;
+    }
+    #footer .nav{
+        overflow-y: hidden;
+    }
     .nav ul:last-child li {
         margin: 0 0 0 3.5rem;
     }
